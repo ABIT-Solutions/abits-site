@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: 'Lato Medium';
+  src: url('/../abits-website/public/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0; /* Optional: Remove default body margin */
+  padding: 0; /* Optional: Remove default body padding */
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Add a background color for the header */
+}
+
+footer {
+  padding-left: 2%;  
+}
+
+/* -------------------- Specific website component styling here -------------------- */
+.customToolbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.toolbarlink {
+  font-size: 1vw;
+  font-family: 'Lato Medium';
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.buttonlink {
+  font-size: 1vw;
+  font-family: 'Lato Medium';
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 10px;
+  padding: 0;
+}
+
+/* font-weight should be a multiple of 100, else errors for Lato
+  https://fonts.google.com/specimen/Lato
+*/
+.companyTopTitle {
+  font-family: 'Lato Medium';
+  font-weight: 900;
+  font-style: normal;
+  padding-block: 1;
+  font-size: 4vw;
+  padding-top: 4%;
+  /*padding-left: 2%;*/
+  text-align: center;
+  margin-bottom: -4%; /* Adjust the negative margin to control spacing for next item */
+}
+
+.companyTopSubTitle {
+  font-family: 'Lato Medium';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vw;
+  padding-top: 1%;
+  /*padding-left: 2%;*/
+  text-align: center;
+  margin-bottom: 5%; /* Adjust the negative margin to control spacing for next item */
+}
+
+.companyTellUsAboutYourProjButton {
+  background-color: #C0C0C0;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  justify-content: center;
+  align-content: center;
+  margin:0 auto;
+  display:block;
+  width: 10%;
+}
