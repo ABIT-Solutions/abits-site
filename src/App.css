@@ -138,3 +138,15 @@ footer {
   display:block;
   width: 10%;
 }
+
+.subTitle {
+  font-family: 'Lato Medium';
+  font-weight: 900;
+  font-style: normal;
+  padding-block: 1;
+  font-size: 2.5vw;
+  padding-top: 4%;
+  /*padding-left: 2%;*/
+  text-align: center;
+  margin-bottom: -4%; /* Adjust the negative margin to control spacing for next item */
+}

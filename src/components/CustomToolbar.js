@@ -21,12 +21,11 @@ const CustomToolbar = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           ABIT Solutions
         </Typography>
-        <button className="toolbarlink" onClick={() => scrollToSection('customToolbar')}>Home</button>
-        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>About</button>
-        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>Our Services</button>
-        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>How we Work</button>
-        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>Request a Demo</button>
-        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>Contact Us</button>
+        <button className="toolbarlink" onClick={() => scrollToSection('companyTopTitle')}>Home</button>
+        <button className="toolbarlink" onClick={() => scrollToSection('companyTopSubtitle')}>About Us</button> 
+        <button className="toolbarlink" onClick={() => scrollToSection('ServicesTitle')}>Our Services</button>
+        <button className="toolbarlink" onClick={() => scrollToSection('ContactUsTitle')}>Request a Demo</button>
+        <button className="toolbarlink" onClick={() => scrollToSection('ContactUsTitle')}>Contact Us</button>
       </Toolbar>
     </div>
   );
